@@ -64,6 +64,22 @@
       },
       "type": "text",
       "required": true
+    },
+    "StartDate": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "datetime"
+    },
+    "EndDate": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "datetime"
     }
   }
 }
