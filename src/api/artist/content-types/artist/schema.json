@@ -31,7 +31,7 @@
           "localized": true
         }
       },
-      "type": "string",
+      "type": "uid",
       "targetField": "Name"
     },
     "Spotify": {
