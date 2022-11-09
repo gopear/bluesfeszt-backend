@@ -19,11 +19,15 @@ module.exports = ({ env }) => ({
       },
     },
     graphql: {
-        config: {
-          endpoint: "/graphql",
-          apolloServer: {
-            introspection: true,
-          },
+      config: {
+        endpoint: "/graphql",
+        apolloServer: {
+          introspection: true,
         },
-      }
+      },
+    },
+    'performance': {
+      enabled: true,
+      resolve: './src/plugins/performance'
+    }
   });

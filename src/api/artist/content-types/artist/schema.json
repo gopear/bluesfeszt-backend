@@ -46,7 +46,7 @@
     "Image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
@@ -65,21 +65,32 @@
       "type": "text",
       "required": true
     },
-    "StartDate": {
+    "PerformanceDate": {
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "type": "datetime"
+      "type": "customField",
+      "customField": "plugin::performance.performance-date"
     },
-    "EndDate": {
+    "PerformanceStart": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
-      "type": "datetime"
+      "type": "customField",
+      "customField": "plugin::performance.performance-start"
+    },
+    "PerformanceDuration": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "customField",
+      "customField": "plugin::performance.performance-duration"
     }
   }
 }
