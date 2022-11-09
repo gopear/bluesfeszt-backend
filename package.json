@@ -6,8 +6,9 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+    "build": "yarn plugin-build && strapi build",
+    "strapi": "strapi",
+    "plugin-build": "yarn --cwd ./src/plugins/performance/ build"
   },
   "devDependencies": {},
   "dependencies": {
