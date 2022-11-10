@@ -39,7 +39,7 @@ const PerformanceDuration = (props) => {
         {
             key: 3,
             label: "01:30",
-            value: "01:30:00.000"
+            value: "01:30:00.000" 
         },
     ]
 
