@@ -35,6 +35,9 @@ const GenericComboBox = ({
             onChange={(selectedOption) =>
                 onChange({ target: { name, value: selectedOption, type: attribute.type } })
             }
+            onClear={() => {
+                onChange({ target: { name, value: null, type: attribute.type  } });
+            }}
             required={required}
         >
             {options.map(option => (
