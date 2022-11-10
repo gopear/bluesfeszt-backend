@@ -32,9 +32,9 @@ const GenericComboBox = ({
             labelAction={labelAction}
             value={value}
             disabled={disabled}
-            onChange={(selectedOption => {
-                onChange({ target: { name, value: selectedOption, type: attribute.type}})
-            })}
+            onChange={(selectedOption) =>
+                onChange({ target: { name, value: selectedOption, type: attribute.type } })
+            }
             required={required}
         >
             {options.map(option => (
