@@ -23,6 +23,8 @@ const GenericComboBox = ({
     const errorMessage = error ? formatMessage({ id: error, defaultMessage: error }) : '';
     const label = formatMessage(intlLabel);
 
+    console.log(label, value)
+
     return (
         <Combobox
             id={name}
