@@ -19,16 +19,16 @@ const GenericComboBox = ({
 }) => {
 
     const { formatMessage } = useIntl();
-    
+
     const errorMessage = error ? formatMessage({ id: error, defaultMessage: error }) : '';
     const label = formatMessage(intlLabel);
 
     return (
-        <Combobox 
-            id={name} 
-            hint={description && formatMessage(description)} 
-            error={errorMessage} 
-            label={label} 
+        <Combobox
+            id={name}
+            hint={description && formatMessage(description)}
+            error={errorMessage}
+            label={label}
             labelAction={labelAction}
             value={value}
             disabled={disabled}
@@ -46,3 +46,27 @@ const GenericComboBox = ({
 }
 
 export default GenericComboBox;
+
+GenericComboBox.defaultProps = {
+    description: null,
+    disabled: false,
+    error: null,
+    labelAction: null,
+    required: false,
+    value: '',
+    options: []
+};
+
+GenericComboBox.propTypes = {
+    intlLabel: PropTypes.object.isRequired,
+    onChange: PropTypes.func.isRequired,
+    attribute: PropTypes.object.isRequired,
+    name: PropTypes.string.isRequired,
+    description: PropTypes.object,
+    disabled: PropTypes.bool,
+    error: PropTypes.string,
+    labelAction: PropTypes.object,
+    required: PropTypes.bool,
+    value: PropTypes.string,
+    options: PropTypes.array.isRequired
+};
