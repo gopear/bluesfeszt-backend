@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_core_performances",
+  "info": {
+    "displayName": "Performance",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "PerformanceDate": {
+      "type": "customField",
+      "customField": "plugin::performance.performance-date"
+    },
+    "PerformanceStart": {
+      "type": "customField",
+      "customField": "plugin::performance.performance-start"
+    },
+    "PerformanceDuration": {
+      "type": "customField",
+      "customField": "plugin::performance.performance-duration"
+    }
+  }
+}

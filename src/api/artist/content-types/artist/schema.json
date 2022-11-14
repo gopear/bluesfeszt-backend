@@ -65,32 +65,17 @@
       "type": "text",
       "required": true
     },
-    "PerformanceDate": {
+    "Performance": {
+      "type": "component",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "type": "customField",
-      "customField": "plugin::performance.performance-date"
-    },
-    "PerformanceStart": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "customField",
-      "customField": "plugin::performance.performance-start"
-    },
-    "PerformanceDuration": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "customField",
-      "customField": "plugin::performance.performance-duration"
+      "component": "core.performance",
+      "min": 1,
+      "required": true
     }
   }
 }
