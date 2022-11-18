@@ -12,14 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Date": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "Sponsors": {
       "type": "dynamiczone",
       "components": [
@@ -28,6 +20,14 @@
       "required": true
     },
     "Hero": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Logo": {
       "allowedTypes": [
         "images"
       ],
