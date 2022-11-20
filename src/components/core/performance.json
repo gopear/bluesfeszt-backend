@@ -10,17 +10,17 @@
     "PerformanceDate": {
       "type": "customField",
       "customField": "plugin::performance.performance-date",
-      "required": true
+      "required": false
     },
     "PerformanceStart": {
       "type": "customField",
       "customField": "plugin::performance.performance-start",
-      "required": true
+      "required": false
     },
     "PerformanceDuration": {
       "type": "customField",
       "customField": "plugin::performance.performance-duration",
-      "required": true
+      "required": false
     }
   }
 }
