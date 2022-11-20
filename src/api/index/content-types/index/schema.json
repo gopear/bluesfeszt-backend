@@ -28,6 +28,14 @@
       ]
     },
     "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "LogoMobile": {
       "allowedTypes": [
         "images"
       ],
