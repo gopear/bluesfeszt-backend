@@ -2,21 +2,25 @@
   "collectionName": "components_core_performances",
   "info": {
     "displayName": "Performance",
-    "icon": "calendar-alt"
+    "icon": "calendar-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "PerformanceDate": {
       "type": "customField",
-      "customField": "plugin::performance.performance-date"
+      "customField": "plugin::performance.performance-date",
+      "required": true
     },
     "PerformanceStart": {
       "type": "customField",
-      "customField": "plugin::performance.performance-start"
+      "customField": "plugin::performance.performance-start",
+      "required": true
     },
     "PerformanceDuration": {
       "type": "customField",
-      "customField": "plugin::performance.performance-duration"
+      "customField": "plugin::performance.performance-duration",
+      "required": true
     }
   }
 }
