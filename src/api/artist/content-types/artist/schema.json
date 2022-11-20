@@ -76,6 +76,26 @@
       "component": "core.performance",
       "min": 1,
       "required": true
+    },
+    "Nationality": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "OrderOnFrontPage": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "unique": false,
+      "required": true,
+      "type": "integer",
+      "default": 0
     }
   }
 }

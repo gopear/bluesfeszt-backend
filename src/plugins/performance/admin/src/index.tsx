@@ -55,6 +55,30 @@ export default {
         icon: Date,
         components: {
           Input: async () => import(/* webpackChunkName: "input-component" */ "./components/Date"),
+        },
+        options: {
+          advanced: [
+            {
+              sectionTitle: {
+                id: 'global.settings',
+                defaultMessage: 'Settings',
+              },
+              items: [
+                {
+                  name: 'required',
+                  type: 'checkbox',
+                  intlLabel: {
+                    id: 'color-picker.options.advanced.requiredField',
+                    defaultMessage: 'Required field',
+                  },
+                  description: {
+                    id: 'color-picker.options.advanced.requiredField.description',
+                    defaultMessage: "You won't be able to create an entry if this field is empty",
+                  },
+                },
+              ],
+            },
+          ]
         }
       },
       {
@@ -72,6 +96,30 @@ export default {
         icon: Date,
         components: {
           Input: async () => import(/* webpackChunkName: "input-component" */ "./components/Start"),
+        },
+        options: {
+          advanced: [
+            {
+              sectionTitle: {
+                id: 'global.settings',
+                defaultMessage: 'Settings',
+              },
+              items: [
+                {
+                  name: 'required',
+                  type: 'checkbox',
+                  intlLabel: {
+                    id: 'color-picker.options.advanced.requiredField',
+                    defaultMessage: 'Required field',
+                  },
+                  description: {
+                    id: 'color-picker.options.advanced.requiredField.description',
+                    defaultMessage: "You won't be able to create an entry if this field is empty",
+                  },
+                },
+              ],
+            },
+          ]
         }
       },
       {
@@ -89,6 +137,30 @@ export default {
         icon: Date,
         components: {
           Input: async () => import(/* webpackChunkName: "input-component" */ "./components/Duration"),
+        },
+        options: {
+          advanced: [
+            {
+              sectionTitle: {
+                id: 'global.settings',
+                defaultMessage: 'Settings',
+              },
+              items: [
+                {
+                  name: 'required',
+                  type: 'checkbox',
+                  intlLabel: {
+                    id: 'color-picker.options.advanced.requiredField',
+                    defaultMessage: 'Required field',
+                  },
+                  description: {
+                    id: 'color-picker.options.advanced.requiredField.description',
+                    defaultMessage: "You won't be able to create an entry if this field is empty",
+                  },
+                },
+              ],
+            },
+          ]
         }
       },
     ]);
