@@ -34,14 +34,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "LogoMobile": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
     }
   }
 }
