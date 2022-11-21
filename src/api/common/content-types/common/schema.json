@@ -4,7 +4,8 @@
   "info": {
     "singularName": "common",
     "pluralName": "commons",
-    "displayName": "Common"
+    "displayName": "Common",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,36 +13,52 @@
   "pluginOptions": {},
   "attributes": {
     "Logo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "FacebookIcon": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "InstagramIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
+      ]
+    },
+    "YoutubeIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ASZF": {
+      "allowedTypes": [
+        "files"
       ],
       "type": "media",
       "multiple": false,
       "required": true
     },
-    "YoutubeIcon": {
+    "Hazirend": {
       "allowedTypes": [
-        "images"
+        "files"
       ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": false
     }
   }
 }
