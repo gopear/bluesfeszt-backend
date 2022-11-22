@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_core_tickets",
+  "info": {
+    "displayName": "Ticket",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Price": {
+      "type": "integer",
+      "required": true
+    },
+    "Available": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "Name": {
+      "type": "enumeration",
+      "enum": [
+        "EARLY BIRD",
+        "ELŐVÉTEL",
+        "TELJES ÁR"
+      ],
+      "required": true
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "bérlet",
+        "napijegy",
+        "csütörtök",
+        "péntek",
+        "szombat",
+        "vasárnap"
+      ],
+      "required": true
+    }
+  }
+}
