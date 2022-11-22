@@ -17,7 +17,7 @@ const PerformanceDuration = (props) => {
                 options.push({
                     key: (i*3)+i+j,
                     label: `${String(i).padStart(2, '0')}:${String(30*j).padStart(2, '0')}`,
-                    value: `${String(i).padStart(2, '0')}:${String(30*j).padStart(2, '0')}:00.000`,
+                    value: `${String(i).padStart(2, '0')}:${String(30*j).padStart(2, '0')}:00`,
                 })
             }
         }
