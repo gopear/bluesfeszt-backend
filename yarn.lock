@@ -1973,6 +1973,11 @@
     "@strapi/utils" "4.4.7"
     lodash "4.17.21"
 
+"@strapi/plugin-gatsby-preview@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-gatsby-preview/-/plugin-gatsby-preview-0.1.0.tgz#929e13fc403e19d9561279de25eaa389b5887ad6"
+  integrity sha512-7pVbsYQFaWSwsYeTBKqHxFK4DdDOX97Ub/3m9ZlXzQpEWXxBBeRX3SZnxVC9+PmHckZXPbmXppvDyjtjLWtAcA==
+
 "@strapi/plugin-graphql@4.4.7":
   version "4.4.7"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-graphql/-/plugin-graphql-4.4.7.tgz#4f7505a9298aef334e46696919d67cb3bc15c7bb"
@@ -9926,6 +9931,18 @@ std-env@^3.0.1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.3.0.tgz#86b5b5d416c5744b3fdeac6893c2b98196fc1a55"
   integrity sha512-cNNS+VYsXIs5gI6gJipO4qZ8YYT274JHvNnQ1/R/x8Q8mdP0qj0zoMchRXmBNPqp/0eOEhX+3g7g6Fgb7meLIQ==
+
+strapi-plugin-publisher@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-publisher/-/strapi-plugin-publisher-1.1.4.tgz#260ff11ca0bf35f7411990fa6040503900306bdc"
+  integrity sha512-aP+4nXCFcCcLdv74+NeG2RYlxj44Zqiye1T8cHt6RB6/kPPPSeJrpmPtvrLX4tXUsF1korsREUHCpkR/htpysg==
+
+strapi-plugin-slugify@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-slugify/-/strapi-plugin-slugify-2.3.1.tgz#c258f0b65d93b63a9d7f0a7387e91a9ca5472582"
+  integrity sha512-l8ZrU+ZTxIX+p6AIdOl4fWQICkEdro8w0W9up4KqdlkJhO2F7yJ3DNSuzPQ/7lXobwjSqc71vd7NBP+js3YqZg==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
 
 stream-browserify@^3.0.0:
   version "3.0.0"

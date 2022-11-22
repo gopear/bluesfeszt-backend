@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_core_artist_on_main_pages",
+  "info": {
+    "displayName": "ArtistOnMainPage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Artist": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::artist.artist"
+    }
+  }
+}

@@ -12,13 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Sponsors": {
-      "type": "dynamiczone",
-      "components": [
-        "core.sponsor"
-      ],
-      "required": true
-    },
     "Hero": {
       "type": "media",
       "multiple": false,
@@ -34,6 +27,18 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "Artists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "core.artist-on-main-page",
+      "required": true
+    },
+    "Sponsors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "core.sponsor",
+      "required": true
     }
   }
 }
