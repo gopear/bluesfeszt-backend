@@ -47,15 +47,6 @@
         }
       }
     },
-    "Description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text",
-      "required": true
-    },
     "Performance": {
       "type": "component",
       "repeatable": true,
@@ -84,6 +75,15 @@
         }
       },
       "type": "string",
+      "required": true
+    },
+    "Description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
       "required": true
     }
   }
