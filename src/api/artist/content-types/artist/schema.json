@@ -85,15 +85,6 @@
       },
       "type": "richtext",
       "required": true
-    },
-    "Order": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "integer",
-      "required": true
     }
   }
 }
