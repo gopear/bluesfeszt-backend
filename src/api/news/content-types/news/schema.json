@@ -46,11 +46,10 @@
     "Slug": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
-      "type": "uid",
-      "targetField": "Title",
+      "type": "string",
       "required": true
     }
   }
