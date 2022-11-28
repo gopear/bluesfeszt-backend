@@ -18,17 +18,6 @@ module.exports = ({ env }) => ({
         },
       },
     },
-    slugify: {
-      enabled: true,
-      config: {
-        contentTypes: {
-          artist: {
-            field: 'Slug',
-            references: 'Name',
-          },
-        },
-      },
-    },
     graphql: {
       config: {
         endpoint: "/graphql",
