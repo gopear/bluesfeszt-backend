@@ -68,15 +68,6 @@
       "type": "string",
       "required": true
     },
-    "Slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
     "Description": {
       "pluginOptions": {
         "i18n": {
@@ -84,6 +75,16 @@
         }
       },
       "type": "richtext",
+      "required": true
+    },
+    "Slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "Name",
       "required": true
     }
   }
