@@ -34,6 +34,15 @@
       "type": "datetime",
       "required": true
     },
+    "Slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
+    },
     "Content": {
       "pluginOptions": {
         "i18n": {
@@ -41,16 +50,6 @@
         }
       },
       "type": "richtext",
-      "required": true
-    },
-    "Slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "uid",
-      "targetField": "Title",
       "required": true
     }
   }
