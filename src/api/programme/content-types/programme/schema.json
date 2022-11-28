@@ -4,18 +4,28 @@
   "info": {
     "singularName": "programme",
     "pluralName": "programmes",
-    "displayName": "Programme"
+    "displayName": "Programme",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "Artists": {
       "type": "component",
       "repeatable": true,
       "component": "core.artist-on-main-page",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
