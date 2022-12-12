@@ -21,6 +21,17 @@
       "type": "customField",
       "customField": "plugin::performance.performance-duration",
       "required": false
+    },
+    "Stage": {
+      "type": "enumeration",
+      "enum": [
+        "Ray Charles Ballroom",
+        "Ma Rayney’s Black Bottom",
+        "Boom Boom Room",
+        "Hangvilla konferencia terem",
+        "Papírkutya"
+      ],
+      "required": true
     }
   }
 }
