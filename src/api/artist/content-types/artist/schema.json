@@ -85,6 +85,22 @@
       },
       "type": "string",
       "required": true
+    },
+    "Stage": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Ray Charles Ballroom",
+        "Ma Rayney’s Black Bottom",
+        "Boom Boom Room",
+        "Hangvilla konferencia terem",
+        "Papírkutya"
+      ],
+      "required": true
     }
   }
 }

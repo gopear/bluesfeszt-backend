@@ -21,7 +21,7 @@ const PerformanceDate = (props) => {
         },
         {
             key: 4,
-            label: "csütörtök - 2023.04.16",
+            label: "vasárnap - 2023.04.16",
             value: "2023-04-16"
         },
     ]
