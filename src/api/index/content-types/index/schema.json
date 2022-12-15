@@ -43,6 +43,9 @@
       "component": "core.sponsor",
       "required": true,
       "pluginOptions": {}
+    },
+    "Text": {
+      "type": "text"
     }
   }
 }
