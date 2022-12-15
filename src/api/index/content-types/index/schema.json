@@ -30,13 +30,6 @@
       ],
       "pluginOptions": {}
     },
-    "Artists": {
-      "type": "component",
-      "repeatable": true,
-      "component": "core.artist-on-main-page",
-      "required": true,
-      "pluginOptions": {}
-    },
     "Sponsors": {
       "type": "component",
       "repeatable": true,
@@ -46,6 +39,11 @@
     },
     "Text": {
       "type": "text"
+    },
+    "Artists": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::artist.artist"
     }
   }
 }

@@ -13,11 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "Artists": {
-      "type": "component",
-      "repeatable": true,
-      "component": "core.artist-on-main-page",
-      "required": true,
-      "pluginOptions": {}
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::artist.artist"
     }
   }
 }
