@@ -84,7 +84,8 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": true,
+      "default": " "
     },
     "YouTube": {
       "pluginOptions": {
@@ -92,7 +93,8 @@
           "localized": false
         }
       },
-      "type": "string"
+      "type": "string",
+      "default": " "
     }
   }
 }
