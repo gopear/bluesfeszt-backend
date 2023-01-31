@@ -18,6 +18,11 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "Highlight": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
