@@ -2,17 +2,18 @@
   "collectionName": "components_core_footer_sponsors",
   "info": {
     "displayName": "FooterSponsor",
-    "icon": "money-bill"
+    "icon": "money-bill",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Logo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Link": {
       "type": "string",
@@ -21,7 +22,7 @@
     "Name": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     }
   }
 }
