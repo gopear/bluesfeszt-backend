@@ -51,6 +51,16 @@
       },
       "type": "string",
       "required": true
+    },
+    "DateTime": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "core.performance"
     }
   }
 }
