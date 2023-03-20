@@ -52,15 +52,15 @@
       "type": "string",
       "required": true
     },
-    "DateTime": {
-      "type": "component",
-      "repeatable": true,
+    "Date": {
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "component": "core.performance"
+      "type": "customField",
+      "required": true,
+      "customField": "plugin::performance.performance-date"
     }
   }
 }
