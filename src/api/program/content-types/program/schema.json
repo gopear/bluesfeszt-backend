@@ -25,7 +25,7 @@
       "type": "string",
       "required": true
     },
-    "Link": {
+    "TicketLink": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -61,6 +61,15 @@
       "type": "customField",
       "required": true,
       "customField": "plugin::performance.performance-date"
+    },
+    "YoutubeLink": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }
