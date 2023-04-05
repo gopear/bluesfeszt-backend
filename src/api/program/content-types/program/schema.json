@@ -69,7 +69,19 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     }
   }
 }
