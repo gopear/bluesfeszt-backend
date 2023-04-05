@@ -10,7 +10,11 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "Hero": {
       "type": "media",
@@ -19,7 +23,11 @@
       "allowedTypes": [
         "images"
       ],
-      "pluginOptions": {}
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     },
     "Logo": {
       "type": "media",
@@ -28,17 +36,30 @@
       "allowedTypes": [
         "images"
       ],
-      "pluginOptions": {}
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     },
     "Sponsors": {
       "type": "component",
       "repeatable": true,
       "component": "core.sponsor",
       "required": true,
-      "pluginOptions": {}
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     },
     "Text": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Artists": {
       "type": "relation",

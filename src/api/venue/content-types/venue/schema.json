@@ -26,17 +26,25 @@
       "required": true
     },
     "PinImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
+      }
+    },
+    "BottomDescription": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
       },
-      "required": true
+      "type": "richtext"
     }
   }
 }
