@@ -68,11 +68,11 @@ export default {
                   name: 'required',
                   type: 'checkbox',
                   intlLabel: {
-                    id: 'color-picker.options.advanced.requiredField',
+                    id: 'performance-date.options.advanced.requiredField',
                     defaultMessage: 'Required field',
                   },
                   description: {
-                    id: 'color-picker.options.advanced.requiredField.description',
+                    id: 'performance-date.options.advanced.requiredField.description',
                     defaultMessage: "You won't be able to create an entry if this field is empty",
                   },
                 },
@@ -109,11 +109,11 @@ export default {
                   name: 'required',
                   type: 'checkbox',
                   intlLabel: {
-                    id: 'color-picker.options.advanced.requiredField',
+                    id: 'performance-start.options.advanced.requiredField',
                     defaultMessage: 'Required field',
                   },
                   description: {
-                    id: 'color-picker.options.advanced.requiredField.description',
+                    id: 'performance-start.options.advanced.requiredField.description',
                     defaultMessage: "You won't be able to create an entry if this field is empty",
                   },
                 },
@@ -150,11 +150,52 @@ export default {
                   name: 'required',
                   type: 'checkbox',
                   intlLabel: {
-                    id: 'color-picker.options.advanced.requiredField',
+                    id: 'performance-duration.options.advanced.requiredField',
                     defaultMessage: 'Required field',
                   },
                   description: {
-                    id: 'color-picker.options.advanced.requiredField.description',
+                    id: 'performance-duration.options.advanced.requiredField.description',
+                    defaultMessage: "You won't be able to create an entry if this field is empty",
+                  },
+                },
+              ],
+            },
+          ]
+        }
+      },
+      {
+        name: "program-start",
+        pluginId: "performance",
+        type: "time",
+        intlLabel: {
+          id: "performance.program-start.label",
+          defaultMessage: "Program start time",
+        },
+        intlDescription: {
+          id: "performance.program-start.description",
+          defaultMessage: "Start time of the program",
+        },
+        icon: Date,
+        components: {
+          Input: async () => import(/* webpackChunkName: "input-component" */ "./components/ProgramStart"),
+        },
+        options: {
+          advanced: [
+            {
+              sectionTitle: {
+                id: 'global.settings',
+                defaultMessage: 'Settings',
+              },
+              items: [
+                {
+                  name: 'required',
+                  type: 'checkbox',
+                  intlLabel: {
+                    id: 'program-start.options.advanced.requiredField',
+                    defaultMessage: 'Required field',
+                  },
+                  description: {
+                    id: 'program-start.options.advanced.requiredField.description',
                     defaultMessage: "You won't be able to create an entry if this field is empty",
                   },
                 },

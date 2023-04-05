@@ -16,6 +16,11 @@ export default ({ strapi }: { strapi: Strapi }) => {
       name: 'performance-duration',
       plugin: 'performance',
       type: 'time',
+    },
+    {
+      name: 'program-start',
+      plugin: 'performance',
+      type: 'time',
     }
   ])
 };
