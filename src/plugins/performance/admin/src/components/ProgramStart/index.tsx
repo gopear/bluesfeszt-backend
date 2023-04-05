@@ -10,7 +10,7 @@ interface Option {
 const ProgramStart = (props) => {
 
     const options : Option[] = []
-    for (let i = 15; i < 19; i++) {
+    for (let i = 14; i < 19; i++) {
         options.push({
             key: i,
             label: `${String(i).padStart(2, '0')}:00`,
